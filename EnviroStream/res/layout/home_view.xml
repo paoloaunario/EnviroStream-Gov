@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/stream_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/My_Icon"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/stream_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/stream_icon"
+        android:text="@string/My_Category"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/stream_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/stream_icon"
+        android:layout_alignLeft="@+id/stream_category"
+        android:text="@string/My_Link"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

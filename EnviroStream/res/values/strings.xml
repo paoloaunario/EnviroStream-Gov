@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EnviroStream</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="My_Streams">My Streams</string>
+    <string name="My_Category">Category</string>
+    <string name="My_Link">Link</string>
+    <string name="My_Icon">Icon</string>
+    <string name="Add_Button">Button</string>
+    <string name="Save_Button">Button</string>
+    <string name="button_text">Add New Stream</string>
+    <string name="button_text2">Save Streams</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="article">Article(s)</string>
+
+</resources>
